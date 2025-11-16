@@ -1,0 +1,45 @@
+<!-- Minimalist stylized dragon icon (pure SVG). Save as dragon.svg or embed in HTML. -->
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Body outline -->
+  <path d="M40 150
+           C40 110, 70 95, 95 95
+           C115 95, 130 105, 145 120
+           C155 130, 165 135, 185 130
+           C190 128, 195 132, 193 138
+           C189 150, 178 160, 165 168
+           C150 177, 130 182, 110 180
+           C85 177, 60 168, 48 160
+           C42 156, 40 153, 40 150 Z"
+        stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Head outline -->
+  <path d="M95 95
+           C100 78, 118 72, 135 80
+           C148 86, 158 94, 165 105
+           C168 110, 168 116, 165 120
+           C160 126, 151 124, 145 120
+           C135 113, 122 106, 110 104
+           C102 102, 96 100, 95 95 Z"
+        stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Eye (dot) -->
+  <circle cx="140" cy="100" r="5" fill="#000"/>
+
+  <!-- Mouth (small curved line) -->
+  <path d="M150 115
+           C155 118, 160 118, 165 115"
+        stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Spiky mane/crest -->
+  <path d="M120 88 L115 70
+           M128 90 L125 68
+           M136 92 L135 70
+           M144 96 L147 74
+           M152 100 L160 80
+           M160 106 L170 88"
+        stroke="#000" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Optional: slight ground hint -->
+  <path d="M45 182 L95 186 L145 184"
+        stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
